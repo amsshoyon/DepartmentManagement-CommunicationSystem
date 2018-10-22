@@ -1,0 +1,20 @@
+.notice_board{
+	padding: 10px;
+}
+.sidebar_title{
+	font-size: 20px;
+	color: #333333;
+	padding: 10px;
+	width: 100%;
+	background-color: #DEDEDE;
+	border-radius: 10px 10px 0px 0px;
+}
+.message{
+	border-radius: 10px;
+}
+.message_content{
+	background-color: #337AB7;
+}
+.options{
+	padding: 10px;
+}

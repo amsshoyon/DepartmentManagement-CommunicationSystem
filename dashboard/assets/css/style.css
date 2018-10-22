@@ -1,0 +1,216 @@
+  #content{
+  margin-left:7px;
+  margin-right:10px;
+}
+.div-square a{
+  text-decoration:none;
+}
+.div-square {
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+  margin:20px auto;
+  padding:15px;
+  height:150px;
+
+}
+.sidebar-shortcuts-large{
+}
+.sidebar-shortcuts-large span{
+  font-size:25px;
+  font-weight:700;
+  color:#FF5252;
+  font-family:Cambria;
+}
+.div-square:hover{
+  -webkit-box-shadow: 3px 7px 20px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow:3px 7px 20px 2px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 3px 7px 20px 2px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 3px 7px 20px 2px rgba(0, 0, 0, 0.4);
+  box-shadow:3px 7px 20px 2px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  top: -5px;
+}
+
+  
+
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     font-family: 'Merriweather', sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+
+
+  
+.file-input {
+  display: inline-block;
+  text-align: left;
+  background: #fff;
+  padding:0px;
+  width: 100%;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #333333;
+  margin-top: 10px;
+}
+
+.file-input > [type='file'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.file-input > .button {
+  width: 50%;
+  display: inline-block;
+  cursor: pointer;
+  background: #eee;
+  padding: 8px 16px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.file-input:hover > .button {
+  background: dodgerblue;
+  color: white;
+}
+
+.file-input > .label {
+  color: #333;
+  white-space: nowrap;
+  opacity: .3;
+}
+
+.file-input.-chosen > .label {
+  opacity: 1;
+}
+
+.file-input button {
+  width: 100%;
+  text-align: center;
+}
+
+.edit_state button{
+  width: 50%;
+  float: left;
+}
+.action a{
+  text-align: center;
+  color: white;
+  width:100%;
+  float: left;
+}
+
+.action_a a{
+  text-align: center;
+  color: white;
+  width:50%;
+  float: left;
+}
+
+
+
+
+
+select {
+    position: relative;
+    background: transparent;
+    background-image: none;
+    display: block;
+    width: 100%;
+    outline: none;
+    color: #888888;
+    cursor: pointer;
+    z-index: 2;
+    border: none;
+    padding: 10px 10px 10px 5px;
+    // This is so hacky.. (for Firefox)
+    // Removes the default select arrow.
+    text-overflow: '';
+    text-indent: 5px;
+    // End of brutal hack
+
+    @include appearance(none);
+
+    &[multiple=multiple] {
+        height: auto;
+        border: 1px solid #cbcbcb;
+        border-radius: 3px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.07);
+
+        @include single-transition(box-shadow, 0.2s);
+
+        &:hover {
+            border-color: #cccccc;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    option[disabled] {
+        color: #eeeeee;
+        text-shadow: none;
+        border: none;
+    }
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #888888;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+
+/*-- About me --*/
+.about-me {
+  padding:0;
+  margin:0 auto;
+}
+.about-me h3 {
+  color:#A1B3A4;
+  font-size:30px;
+  font-family: 'Cinzel', serif;
+  line-height:25px;
+  font-weight:bold;
+  padding: 67px 0 55px;
+}
+.mydetails img {
+    margin:0 auto;
+    border-radius: 15px;
+}
+.mydetails , .myskills {
+  background-color: rgba(129, 224, 144, 0.14);
+}
+.mydetails {
+  padding:6.3em 0;
+}
+.mydetails h3 {
+  color:#000;
+  padding: 1em 0;
+  font-family: 'Cinzel', serif;
+  line-height:25px;
+  font-weight:bold;
+}
+.mydetails p {
+  font-size:18px;
+  line-height:25px;
+  font-weight:400;
+}

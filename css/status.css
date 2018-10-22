@@ -1,0 +1,103 @@
+
+.share {
+    -webkit-transition: 0.1s ease-out height;
+    -moz-transition: 0.1s ease-out height;
+    -ms-transition: 0.1s ease-out height;
+    -o-transition: 0.1s ease-out height;
+    transition: 0.1s ease-out height;
+    background: white;
+    border: 2px solid #dddddd;
+    margin-bottom: 10px;
+    position: relative;
+}
+ 
+
+.post-types li a {
+    color: #085083;
+    text-decoration: none;
+}
+ 
+.post-types li a.active {
+    color: #404040;
+}
+ 
+.post-types {
+    padding-left: 5px;
+}
+ 
+.facebook-share-box ul {
+    list-style: none;
+    margin-bottom: 9px;
+}
+ 
+.post-types li {
+    display: inline;
+    margin-right: 10px;
+}
+ 
+.message {
+    border-radius: 0;
+    border: none;
+}
+.panel {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+ 
+.privacy-dropdown {
+    width: 100px;
+}
+
+
+
+
+
+.status{
+    background: #F5F5F5;
+    border: 2px solid #dddddd;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.status_head{
+    display: inline-block;
+}
+.status_head img{
+    display: inline-block;
+    width:60px;
+    float: left;
+}
+.status_head span{
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    padding: 10px;
+}
+.status_head .time{
+    font-size: 20px;
+}
+.seperator{
+    border-top:1px solid #333333;
+    width: 100%;
+    margin-left: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.status p{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.post-footer-option ul li{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+

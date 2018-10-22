@@ -1,0 +1,25 @@
+
+
+
+Database Name is : bd_books
+
+no password required.
+
+If server upload requires to set password, there are 3 server.php files... 
+one in main folder.. 
+second one in dashboard folder.. 
+last one is in admin_login folder..
+
+dashboard link is : localhost/group_1_project/dashboard
+
+
+One can register as an admin from: localhost/group_1_project/admin_login/admin_reg.php
+my login (Admin login) details for dashboard: username: amsshoyon pass: 546496   (can be changed from right top toggle menu > security)
+
+user login details: username: amsshoyon pass: 123123 (no need to use, one can easily register)
+an user can also register from sign up menu...
+
+  
+
+thank u...
+
